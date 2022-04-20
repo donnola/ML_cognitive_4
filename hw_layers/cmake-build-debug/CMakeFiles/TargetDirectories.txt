@@ -1,0 +1,3 @@
+/home/aigul/Documents/ML_cognit/hw_layers/cmake-build-debug/CMakeFiles/hw_layers.dir
+/home/aigul/Documents/ML_cognit/hw_layers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aigul/Documents/ML_cognit/hw_layers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,44 @@
+{
+  "layer0": {
+    "data_shape": [32, 32, 1],
+    "type": "data"
+  },
+  "layer1": {
+    "type": "conv",
+    "input_layer": "layer0",
+    "filters": 16,
+    "filter_size": [4, 4],
+    "filter_stride": [2, 2],
+    "padding": [1, 1]
+  },
+  "layer2": {
+    "type": "neuron",
+    "input_layer": "layer1",
+    "neuron": "relu"
+  },
+  "layer3": {
+    "type": "conv",
+    "input_layer": "layer2",
+    "filters": 16,
+    "filter_size": [3, 3],
+    "filter_stride": [1, 1],
+    "padding": [0, 0]
+  },
+  "layer4": {
+    "type": "neuron",
+    "input_layer": "layer3",
+    "neuron": "relu"
+  },
+  "layer5": {
+    "type": "fc",
+    "outputs": 100
+  },
+  "layer6": {
+    "type": "neuron",
+    "neuron": "relu"
+  },
+  "layer7": {
+    "type": "fc",
+    "outputs": 10
+  }
+}
